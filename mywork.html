@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dovlet Notomelette Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .header {
+      padding: 80px;
+      text-align: center;
+      background: #1abc9c;
+      color: white;
+    }
+    .header h1 {
+      font-size: 40px;
+    }
+    .navbar {
+      overflow: hidden;
+      background-color: #333;
+    }
+    .navbar a {
+      float: left;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .main {
+      text-align: center;
+      padding: 40px;
+    }
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: #ddd;
+    }
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%;
+    }
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    /*
+    positioning
+    */
+    .column {
+      float: left;
+      width: 45%;
+      padding: 10px;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+  <body>
+    <div class="header">
+      <h1>Dovlet Notomelette</h1>
+      <p>Welcome to my portfolio page</p>
+    </div>
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <a href="contactme.html">Contact Me</a>
+    </div>
+      <div class="main">
+        <div class="row">
+          <div class="column">
+            <h2>THE GAME OF PONG</h2>
+            <iframe src="https://editor.p5js.org/Dovlet/full/FJkVTAvVi" width="600" height="600"></iframe>
+          </div>
+          <div class="column">
+            <h2>MAKE A WISH</h2>
+            <iframe src="https://editor.p5js.org/Dovlet/full/gCrEqh7Td" width="600" height="600"></iframe>
+          </div>
+        </div>
+      </div>
+    <div class="footer">
+      <a href="https://www.linkedin.com/" target="_blank" class="fa fa-linkedin"></a>
+      <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+      <a href="https://www.youtube.com/dovletnotomelette" target="_blank" class="fa fa-youtube"></a>
+    </div>
+  </body>
+</html>
